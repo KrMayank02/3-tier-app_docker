@@ -3,4 +3,5 @@ Deployment of a 3-tier application using Docker compose, including configuring p
 Check the data (correct URL) under .env.sample files
 
 Import data into Mongo DB container:
+
 docker exec -it container_id mongoimport --db wanderlust --collection posts --file ./data/sample_posts.json --jsonArray
